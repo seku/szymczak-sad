@@ -1,6 +1,5 @@
-require "rubygems"
-require "bundler/setup"
+require 'rubygems'
+require 'sinatra'
+require './app'
 
-require File.expand_path("../app", __FILE__)
-
-run App
+run SinatraBootstrap
