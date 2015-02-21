@@ -35,13 +35,24 @@
     .header
       %h2
         %span Kontakt
-
-    .col-md-8
-      %iframe{src:"https://www.google.com/maps/d/embed?mid=zDIGzDbSwk94.kuNAry03u7Xg"}
     .col-md-4
-      Gospodarstwo Rodzinne Sadownicze
-      Stanisławów 19
-      26-803 Promna
-      Woj. mazowieckie
-      Polska
-      Tel. +48 507 710 454
+      .kwadrat
+        %a{href:"tel:+48507710454"}
+          %h1 TELEFON
+          .ss-pika.ss-phone
+          .content +48 507 710 454
+    .col-md-4
+      .kwadrat
+        %a{href:"mailto:damianseb@gmail.com"}
+          %h1 EMAIL
+          .ss-pika.ss-mail
+          .content damianseb@gmail.com
+    .col-md-4
+      .kwadrat
+        %a{href:"https://www.google.com/maps/d/embed?mid=zDIGzDbSwk94.kuNAry03u7Xg", target: "_blank"}
+          %h1 ADRES
+          .ss-pika.ss-location
+          .content
+            %p Stanisławów 19
+            %p 26-803 Promna
+            %p Polska

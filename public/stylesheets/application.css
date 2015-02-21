@@ -58,7 +58,19 @@ body {
   background: #fff;
   color: #0d0d0d;
   font-size: 21px;
-  font-family: 'Droid Sans', Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-inverse {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+.navbar-inverse .navbar-nav li a {
+  color: #000;
 }
 
 .header {
@@ -111,8 +123,46 @@ body {
   padding-top: 200px;
   opacity: 0.6;
 }
-
-iframe {
-  width: 100%;
+.container-fluid#kontakt {
+  color: #fff;
+  background-color: #000;
+}
+.container-fluid#kontakt .header {
+  margin-bottom: 80px;
+}
+.container-fluid#kontakt .header h2:before, .container-fluid#kontakt .header h2:after {
+  background-color: #fff;
+}
+.container-fluid#kontakt .col-md-4 {
+  text-aligin: center !important;
+}
+.container-fluid#kontakt .col-md-4 .kwadrat {
+  text-align: center;
+  margin: auto;
+  width: 300px;
   height: 300px;
+  padding-top: 50px;
+  cursor: pointer;
+}
+.container-fluid#kontakt .col-md-4 .kwadrat a {
+  color: #fff;
+}
+.container-fluid#kontakt .col-md-4 .kwadrat a:hover, .container-fluid#kontakt .col-md-4 .kwadrat a:visited {
+  text-decoration: none;
+}
+.container-fluid#kontakt .col-md-4 .kwadrat:hover {
+  border: 1px solid #fff;
+}
+.container-fluid#kontakt .col-md-4 .kwadrat h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+}
+.container-fluid#kontakt .col-md-4 .kwadrat .ss-pika {
+  font-size: 40px;
+  padding: 40px 0px;
+}
+
+.icon-email:before {
+  content: "\e601";
 }
