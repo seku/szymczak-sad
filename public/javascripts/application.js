@@ -1,5 +1,9 @@
 $(document).ready(function() {
   height = $(window).height()
+  if (height < 750) {
+    height = 750
+  }
+
   $(".container-fluid").height(height)
 
   $(".menuItem").click(function(event) {

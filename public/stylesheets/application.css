@@ -66,11 +66,14 @@ body {
 }
 
 .navbar-inverse {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(252, 252, 252, 0.8);
+  border-color: rgba(252, 252, 252, 0.8);
 }
 .navbar-inverse .navbar-nav li a {
   color: #000;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  color: red;
 }
 
 .header {
@@ -109,19 +112,41 @@ body {
 }
 
 .container-fluid {
-  height: 500px;
+  min-height: 750px;
   padding-top: 70px;
-  border: 1px solid red;
 }
-.container-fluid.grey {
-  background-color: #f4f4f5;
-}
-.container-fluid#oferta {
+.container-fluid#oNas {
   background-image: url("/images/apples.jpg");
 }
 .container-fluid#oferta .info {
-  padding-top: 200px;
-  opacity: 0.6;
+  text-align: center;
+}
+.container-fluid#oferta .info .top {
+  padding: 20px 0px;
+}
+.container-fluid#oferta .info .bottom {
+  padding-top: 65px;
+}
+.container-fluid#oferta .info .items .img {
+  text-align: right;
+}
+.container-fluid#oferta .info .items .type {
+  text-align: left;
+  padding-top: 33px;
+  font-size: 28px;
+}
+.container-fluid#oferta .info .items ul {
+  text-align: left;
+  padding-left: 130px;
+  padding-top: 23px;
+  line-height: 28px;
+  list-style-type: disc;
+}
+.container-fluid#oferta .info .items .czeresnia {
+  margin-top: 50px;
+}
+.container-fluid#oferta .info .items .wisnia {
+  margin-top: 130px;
 }
 .container-fluid#kontakt {
   color: #fff;

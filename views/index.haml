@@ -21,16 +21,57 @@
     Ponadto produkujemy około 40 ton czereśni które posiadają odpowiednią twardość i smak. Owoce czereśni dla każdego klienta możemy zapakować wedle uznania i schłodzić w chłodniach.
     Również od niedawna zaczynamy produkcje wiśni która w docelowym etapie na chwile obecną osiągnie 150 ton.
     Wszystkie owoce produkujemy metodą Integrowanej Produkcji więc w naszych sadach nie ma obaw że owoce które nadają się do spożycia posiadają resztki pestycydów czy metali ciężkich.
-  #oferta.container-fluid.grey
+  #oferta.container-fluid
     .header
       %h2
         %span Oferta
     .info
-      W naszej ofercie posiadamy owoce najwyższej jakości takie jak;
-      Jabłka; Alwa, Gala, Gloster, Golden Delicious, Idared, Jonagold, Jonagored, Ligol, Lobo, Paulared, Piros, Szampion
-      Czereśnie; Kordia, Poznańska, Regina, Summit, Burlat
-      Wiśnie; Groniasta, Łutówka
-      Wszystkie owoce dostępne są w różnych kalibrach i opakowaniach wedle życzenia kupującego. Owoce możemy schłodzić jak i dostarczyć do odbiorcy po wcześniejszych uzgodnieniach.
+      .row.top W naszej ofercie posiadamy owoce najwyższej jakości
+      .row.items
+        .col-md-4
+          .row
+            .col-md-4.img
+              %img{src: "/images/jabko1.jpg"}
+            .col-md-4.type
+              Jabłka
+          %ul
+            %li Alwa
+            %li Gala
+            %li Gloster
+            %li Golden Delicious
+            %li Idared
+            %li Jonagold
+            %li Jonagored
+            %li Ligol
+            %li Lobo
+            %li Paulared
+            %li Piros
+            %li Szampion
+        .col-md-4
+          .row.czeresnia
+            .col-md-4.img
+              %img{src: "/images/czeresnia2.jpg"}
+            .col-md-4.type
+              Czereśnie
+          %ul
+            %li Korida
+            %li Poznańska
+            %li Regina
+            %li Summit
+            %li Burlat
+        .col-md-4
+          .row.wisnia
+            .col-md-4.img
+              %img{src: "/images/wisnia2.jpg"}
+            .col-md-4.type
+              Wiśnie
+          %ul
+            %li Groniasta
+            %li Łutówka
+      .row.bottom
+        Wszystkie owoce dostępne są w różnych kalibrach i opakowaniach wedle życzenia kupującego. 
+        %br
+        Owoce możemy schłodzić jak i dostarczyć do odbiorcy po wcześniejszych uzgodnieniach.
   #kontakt.container-fluid
     .header
       %h2
