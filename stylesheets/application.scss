@@ -9,6 +9,10 @@ body {
   font-family: 'Droid Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.navbar-wrapper {
+  z-index: 3;
+}
+
 .navbar {
   border: none;
 }
@@ -16,11 +20,25 @@ body {
 .navbar-inverse {
   background-color: rgba(252,252,252,.8);
   border-color: rgba(252,252,252,.8);
-  .navbar-nav li a {
-    color: #000;
+  .navbar-nav {
+    li a {
+      color: #000;
 
-    &:hover {
-      color: red;
+      &:hover {
+        color: red;
+      }
+    }
+    &.countries {
+      float: right;
+      margin-top: 15px;
+      li {
+        cursor: pointer;
+        margin-right: 5px;
+        img {
+          height: 18px;
+          width: 28px;
+        }
+      }
     }
   }
 }
@@ -67,7 +85,7 @@ body {
 }
 
 .container-fluid {
-  min-height: 750px;
+  min-height: 700px;
   padding-top: 70px;
 
   &#oNas {
@@ -83,7 +101,7 @@ body {
       }
 
       .bottom {
-        padding-top: 65px;
+        padding-top: 50px;
       }
 
       .items {

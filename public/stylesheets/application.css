@@ -61,6 +61,10 @@ body {
   font-family: 'Droid Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.navbar-wrapper {
+  z-index: 3;
+}
+
 .navbar {
   border: none;
 }
@@ -74,6 +78,18 @@ body {
 }
 .navbar-inverse .navbar-nav li a:hover {
   color: red;
+}
+.navbar-inverse .navbar-nav.countries {
+  float: right;
+  margin-top: 15px;
+}
+.navbar-inverse .navbar-nav.countries li {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.navbar-inverse .navbar-nav.countries li img {
+  height: 18px;
+  width: 28px;
 }
 
 .header {
@@ -112,7 +128,7 @@ body {
 }
 
 .container-fluid {
-  min-height: 750px;
+  min-height: 700px;
   padding-top: 70px;
 }
 .container-fluid#oNas {
@@ -125,7 +141,7 @@ body {
   padding: 20px 0px;
 }
 .container-fluid#oferta .info .bottom {
-  padding-top: 65px;
+  padding-top: 50px;
 }
 .container-fluid#oferta .info .items .img {
   text-align: right;
