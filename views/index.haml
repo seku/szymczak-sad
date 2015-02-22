@@ -22,13 +22,35 @@
 
 #contents
   #oNas.container-fluid
-    .header
-      %h2.wide
-        %span Gospodarstwo Rodzinne Sadownicze
-    Nasze gospodarstwo znajduje się w zagłębiu Grójeckim zajęło się sadownictwem 30 lat temu, od tamtej pory bardzo się rozwinęło i nadal inwestujemy w nowe technologie aby produkować ładniejsze i zdrowsze dla konsumenta owoce. Posiadamy bazę przechowalniczą na tysiąc ton jabłek, które przechowywane są w chłodniach ULO przy użyciu płuczek CO2, więc w każdym momencie sprzedaży posiadamy świeże owoce o odpowiedniej trwałości i jędrności.
-    Ponadto produkujemy około 40 ton czereśni które posiadają odpowiednią twardość i smak. Owoce czereśni dla każdego klienta możemy zapakować wedle uznania i schłodzić w chłodniach.
-    Również od niedawna zaczynamy produkcje wiśni która w docelowym etapie na chwile obecną osiągnie 150 ton.
-    Wszystkie owoce produkujemy metodą Integrowanej Produkcji więc w naszych sadach nie ma obaw że owoce które nadają się do spożycia posiadają resztki pestycydów czy metali ciężkich.
+    .dark
+      .header
+        %h2.wide
+          %span Gospodarstwo Rodzinne Sadownicze
+      .col-md-12.col-md-offset-1.message
+        .row
+          .ss-pika.ss-home
+          %span Znajdujemy się w zagłębiu Grójeckim
+        .row
+          .ss-pika.ss-checkheart
+          %span Zajmujemy się sadownictwem od ponad 30 lat
+        .row
+          .ss-pika.ss-forklift
+          %span Posiadamy bazę przechowalnicza na tysiąc ton jabłek
+        .row
+          .ss-pika.ss-weight
+          %span Produkujemy 40 ton czereśni i 150 ton wiśni
+        .row
+          .ss-pika.ss-compose
+          %span Pakujemy i schładamy wedle ustaleń klienta
+        .row
+          .ss-pika.ss-check
+          %span Owoce przechowujemy w chłodniach ULO
+        .row
+          .ss-pika.ss-sync
+          %span Owoce płukamy płuczkami CO2
+        .row
+          .ss-pika.ss-leaf
+          %span Nasze owoce są bez pestycydów i metali ciężkich dzięki produkcji metodą Integrowanej Produkcji (IP)
   #oferta.container-fluid
     .header
       %h2
@@ -56,6 +78,15 @@
             %li Piros
             %li Szampion
         .col-md-4
+          .row.wisnia
+            .col-md-4.img
+              %img{src: "/images/wisnia2.jpg"}
+            .col-md-4.type
+              Wiśnie
+          %ul
+            %li Groniasta
+            %li Łutówka
+        .col-md-4
           .row.czeresnia
             .col-md-4.img
               %img{src: "/images/czeresnia2.jpg"}
@@ -67,15 +98,6 @@
             %li Regina
             %li Summit
             %li Burlat
-        .col-md-4
-          .row.wisnia
-            .col-md-4.img
-              %img{src: "/images/wisnia2.jpg"}
-            .col-md-4.type
-              Wiśnie
-          %ul
-            %li Groniasta
-            %li Łutówka
       .row.bottom
         Wszystkie owoce dostępne są w różnych kalibrach i opakowaniach wedle życzenia kupującego. 
         %br
