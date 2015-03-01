@@ -40,78 +40,78 @@
         %span= t("pages.o_nas.baza")
       .row
         .ss-pika.ss-weight
-        %span Produkujemy 40 ton czereśni i 150 ton wiśni
+        %span= t("pages.o_nas.production")
       .row
         .ss-pika.ss-compose
-        %span Pakujemy i schładamy wedle ustaleń klienta
+        %span= t("pages.o_nas.pack")
       .row
         .ss-pika.ss-check
-        %span Owoce przechowujemy w chłodniach ULO
+        %span= t("pages.o_nas.ulo")
       .row
         .ss-pika.ss-sync
-        %span Owoce płukamy płuczkami CO2
+        %span= t("pages.o_nas.pluczka")
       .row
         .ss-pika.ss-leaf
-        %span Nasze owoce są bez pestycydów i metali ciężkich dzięki produkcji metodą Integrowanej Produkcji (IP)
+        %span= t("pages.o_nas.ecology")
+      .row
+        .ss-pika.ss-merge
+        %span= t("pages.o_nas.ip")
   #oferta.container-fluid
     .header
       %h2
-        %span Oferta
+        %span= t("pages.oferta.title")
     .info
-      .row.top W naszej ofercie posiadamy owoce najwyższej jakości
+      .row.top= t("pages.oferta.jakosc")
       .row.items
         .col-md-4
           .row
             .col-md-4.img
               %img{src: "/images/jabko1.jpg"}
-            .col-md-4.type
-              Jabłka
+            .col-md-4.type= t("pages.oferta.jablka")
           %ul
-            %li Alwa
-            %li Gala
-            %li Gloster
-            %li Golden Delicious
-            %li Idared
-            %li Jonagold
-            %li Jonagored
-            %li Ligol
-            %li Lobo
-            %li Paulared
-            %li Piros
-            %li Szampion
+            %li= t("pages.oferta.alwa")
+            %li= t("pages.oferta.gala")
+            %li= t("pages.oferta.gloster")
+            %li= t("pages.oferta.golden")
+            %li= t("pages.oferta.idared")
+            %li= t("pages.oferta.jonagold")
+            %li= t("pages.oferta.jonagored")
+            %li= t("pages.oferta.ligol")
+            %li= t("pages.oferta.lobo")
+            %li= t("pages.oferta.paulared")
+            %li= t("pages.oferta.piros")
+            %li= t("pages.oferta.szampion")
         .col-md-4
           .row.wisnia
             .col-md-4.img
               %img{src: "/images/wisnia2.jpg"}
-            .col-md-4.type
-              Wiśnie
+            .col-md-4.type= t("pages.oferta.wisnie")
           %ul
-            %li Groniasta
-            %li Łutówka
+            %li= t("pages.oferta.groniasta")
+            %li= t("pages.oferta.lutowka")
         .col-md-4
           .row.czeresnia
             .col-md-4.img
               %img{src: "/images/czeresnia2.jpg"}
-            .col-md-4.type
-              Czereśnie
+            .col-md-4.type= t("pages.oferta.czeresnie")
           %ul
-            %li Korida
-            %li Poznańska
-            %li Regina
-            %li Summit
-            %li Burlat
+            %li= t("pages.oferta.korida")
+            %li= t("pages.oferta.poznanska")
+            %li= t("pages.oferta.regina")
+            %li= t("pages.oferta.summit")
+            %li= t("pages.oferta.burlat")
       .row.bottom
-        Wszystkie owoce dostępne są w różnych kalibrach i opakowaniach wedle życzenia kupującego. 
+        = t("pages.oferta.kalibry")
         %br
-        Owoce możemy schłodzić jak i dostarczyć do odbiorcy po wcześniejszych uzgodnieniach.
+        = t("pages.oferta.uzgodnienia")
   #kontakt.container-fluid
     .header
       %h2
-        %span Kontakt
+        %span= t("pages.kontakt.title")
     .col-md-4
       .kwadrat
         %a{href:"tel:+48507710454"}
-          %h1 TELEFON
+          %h1= t("pages.kontakt.telefon")
           .ss-pika.ss-phone
           .content +48 507 710 454
     .col-md-4
@@ -123,9 +123,9 @@
     .col-md-4
       .kwadrat
         %a{href:"https://www.google.com/maps/d/edit?mid=zDIGzDbSwk94.kuNAry03u7Xg", target: "_blank"}
-          %h1 ADRES
+          %h1= t("pages.kontakt.adres")
           .ss-pika.ss-location
           .content
-            %p Stanisławów 19
-            %p 26-803 Promna
-            %p Polska
+            %p= "#{t('pages.kontakt.ulica')} 19"
+            %p= "26-803 #{t('pages.kontakt.wies')}"
+            %p= t("pages.kontakt.polska")
