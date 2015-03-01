@@ -1,0 +1,11 @@
+pl:
+  header:
+    o_nas: "O nas"
+    oferta: "Oferta"
+    kontakt: "Kontakt"
+  pages:
+    o_nas:
+      title: "Gospodarstwo Rodzinne Sadownicze"
+      position: "Znajdujemy się w zagłębiu Grójeckim"
+      love: "Zajmujemy się sadownictwem od ponad 30 lat"
+      baza: "Posiadamy bazę przechowalnicza na tysiąc ton jabłek"

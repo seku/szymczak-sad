@@ -4,6 +4,7 @@ gem 'rake'
 gem 'sinatra'
 gem 'shotgun'
 gem 'haml'
+gem 'i18n'
 
 # Sass & Compass
 gem 'sass'
@@ -11,6 +12,7 @@ gem 'compass'
 
 
 group :development do
+  gem "pry"
   gem "guard"
   gem 'guard-rake'
 end

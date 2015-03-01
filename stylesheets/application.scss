@@ -30,11 +30,9 @@ body {
     }
     &.countries {
       float: right;
-      margin-top: 15px;
       li {
         cursor: pointer;
-        margin-right: 5px;
-        img {
+        a img {
           height: 18px;
           width: 28px;
         }
@@ -91,7 +89,7 @@ body {
   &#oNas {
     background-image: url("/images/apples.jpg");
 
-    .dark {
+    &.dark {
       &:before {
         content: '';
         position: absolute;
@@ -216,10 +214,5 @@ body {
         }
       }
     }
-  }
-}
-.icon-email {
-  &:before {
-    content: "\e601";
   }
 }

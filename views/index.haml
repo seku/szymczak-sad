@@ -6,51 +6,53 @@
           .navbar-collapse.collapse
             %ul.nav.navbar-nav
               %li.menuItem(data-target="oNas")
-                %a{href: "#oNas"} O nas
+                %a{href: "#oNas"}= t("header.o_nas")
               %li.menuItem(data-target="oferta")
-                %a{href:"#oferta"} Oferta
+                %a{href:"#oferta"}= t("header.oferta")
               %li.menuItem(data-target="kontakt")
-                %a{href:"#kontakt"} Kontakt
+                %a{href:"#kontakt"}= t("header.kontakt")
             %ul.nav.navbar-nav.countries
               %li.menuItem
-                %img{src: "/images/pl.png"}
+                %a{href: "/pl"}
+                  %img{src: "/images/pl.png"}
               %li.menuItem
-                %img{src: "/images/ru.png"}
+                %a{href: "/ru"}
+                  %img{src: "/images/ru.png"}
               %li.menuItem
-                %img{src: "/images/gb.png"}
+                %a{href: "/en"}
+                  %img{src: "/images/gb.png"}
 
 
 #contents
-  #oNas.container-fluid
-    .dark
-      .header
-        %h2.wide
-          %span Gospodarstwo Rodzinne Sadownicze
-      .col-md-12.col-md-offset-1.message
-        .row
-          .ss-pika.ss-home
-          %span Znajdujemy się w zagłębiu Grójeckim
-        .row
-          .ss-pika.ss-checkheart
-          %span Zajmujemy się sadownictwem od ponad 30 lat
-        .row
-          .ss-pika.ss-forklift
-          %span Posiadamy bazę przechowalnicza na tysiąc ton jabłek
-        .row
-          .ss-pika.ss-weight
-          %span Produkujemy 40 ton czereśni i 150 ton wiśni
-        .row
-          .ss-pika.ss-compose
-          %span Pakujemy i schładamy wedle ustaleń klienta
-        .row
-          .ss-pika.ss-check
-          %span Owoce przechowujemy w chłodniach ULO
-        .row
-          .ss-pika.ss-sync
-          %span Owoce płukamy płuczkami CO2
-        .row
-          .ss-pika.ss-leaf
-          %span Nasze owoce są bez pestycydów i metali ciężkich dzięki produkcji metodą Integrowanej Produkcji (IP)
+  #oNas.container-fluid.dark
+    .header
+      %h2.wide
+        %span= t("pages.o_nas.title")
+    .col-md-12.col-md-offset-1.message
+      .row
+        .ss-pika.ss-home
+        %span= t("pages.o_nas.location")
+      .row
+        .ss-pika.ss-checkheart
+        %span= t("pages.o_nas.love")
+      .row
+        .ss-pika.ss-forklift
+        %span= t("pages.o_nas.baza")
+      .row
+        .ss-pika.ss-weight
+        %span Produkujemy 40 ton czereśni i 150 ton wiśni
+      .row
+        .ss-pika.ss-compose
+        %span Pakujemy i schładamy wedle ustaleń klienta
+      .row
+        .ss-pika.ss-check
+        %span Owoce przechowujemy w chłodniach ULO
+      .row
+        .ss-pika.ss-sync
+        %span Owoce płukamy płuczkami CO2
+      .row
+        .ss-pika.ss-leaf
+        %span Nasze owoce są bez pestycydów i metali ciężkich dzięki produkcji metodą Integrowanej Produkcji (IP)
   #oferta.container-fluid
     .header
       %h2

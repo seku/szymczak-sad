@@ -3,7 +3,7 @@ $(document).ready(function() {
   if (height < 700) {
     height = 700
   }
-  console.log("he", height)
+
   $(".container-fluid").height(height)
 
   $(".menuItem").click(function(event) {
