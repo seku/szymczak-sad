@@ -72,7 +72,6 @@ DEPENDENCIES
   guard-rake
   haml
   i18n
-  pry
   rake
   sass
   shotgun

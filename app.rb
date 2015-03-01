@@ -3,7 +3,6 @@ require 'sinatra/base'
 require 'haml'
 require 'i18n'
 require 'i18n/backend/fallbacks'
-require 'pry'
 
 class SinatraBootstrap < Sinatra::Base
   configure do
