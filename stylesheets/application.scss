@@ -88,11 +88,13 @@ body {
 
   &#oNas {
     background-image: url("/images/apples.jpg");
+    position: relative;
 
     &.dark {
       &:before {
         content: '';
         position: absolute;
+        top: 0px;
         display: block;
         width: 100%;
         height: 100%;
@@ -110,7 +112,7 @@ body {
     }
 
     .message {
-      margin-left: 250px;
+      margin-left: 30%;
     }
 
     color: #fff;
