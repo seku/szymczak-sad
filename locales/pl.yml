@@ -5,14 +5,13 @@ pl:
     kontakt: "Kontakt"
   pages:
     o_nas:
-      title: "Gospodarstwo Rodzinne Sadownicze"
+      title: "Rodzinne Gospodarstwo Sadownicze"
       location: "Znajdujemy się w zagłębiu Grójeckim"
       love: "Zajmujemy się sadownictwem od ponad 30 lat"
       baza: "Posiadamy bazę przechowalnicza na tysiąc ton jabłek"
-      production: "Produkujemy 40 ton czereśni i 150 ton wiśni"
+      production: "Produkujemy 1000 ton jabłek, 40 ton czereśni oraz 150 ton wiśni"
       pack: "Pakujemy i schładzamy wedle ustaleń klienta"
       ulo: "Owoce przechowujemy w chłodniach ULO"
-      pluczka: "Owoce płukamy płuczkami CO2"
       ecology: "Nasze owoce są bez pestycydów i metali ciężkich"
       ip: "Produkcja metodą 'Integrowanej Produkcji' (IP)"
     oferta:
